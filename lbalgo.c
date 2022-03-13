@@ -1,3 +1,5 @@
+/* Leaky Bucket Algorithm Implementation */
+
 #include<stdio.h>
 void main(){
 	int inc,out,buf_siz,store=0,n;
