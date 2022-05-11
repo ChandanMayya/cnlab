@@ -77,7 +77,7 @@ $ns connect $tcp1 $sink2
 #===================================
 #        Applications Definition        
 #===================================
-set lan [$ns newLan "$n3 $n4 $n5" 1mb 40ms LL Queue/DropTail MAC/Csma/Cd Channel]
+set lan [$ns newLan "$n3 $n4 $n5" 1Mb 40ms LL Queue/DropTail MAC/Csma/Cd Channel]
 
 #Setup a FTP Application over TCP connection
 set ftp0 [new Application/FTP]
