@@ -10,7 +10,7 @@ $ns flush-trace
 close $tracefile
 close $namfile
 exec nam p1.nam &
-exec awk-f prg1.awk p1.tr&
+exec awk-f B1.awk p1.tr&
 exit 0
 }
 set n0 [ $ns node]
