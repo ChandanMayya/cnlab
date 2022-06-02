@@ -17,7 +17,7 @@ int main(){
 	recv(source,fname,sizeof(fname),0);
 	printf("Request for file..\n");
 	file=open(fname,O_RDONLY);
-	if(file<0)
+	if(file<=0)
 	{
 		printf("Not Found!\n");
 		send(source,"file not found",20,0);
